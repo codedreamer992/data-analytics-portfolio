@@ -106,4 +106,4 @@ larger transaction sizes across the entire customer base.
 
 ## Curriculum
 30-day structured Data Analytics program covering 
-Excel → SQL → Power BI → Python# data-analytics-portfolio
+Excel → SQL → Power BI → Python
