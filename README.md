@@ -159,10 +159,18 @@ to leverage its superior revenue per transaction.
 - Order Tier (calculated column)
 
 ### Screenshots
-[Executive Summary](PowerBI-Project/powerbi_page1_executive.png)  
-[Sales Deep Dive](PowerBI-Project/powerbi_page2_sales_details.png)  
-[Customer Analysis](PowerBI-Project/powerbi_page3_customers_analysis.png)
+![Executive Summary](powerbi_page1_executive.png)
 
-## Curriculum
-30-day structured Data Analytics program covering 
-Excel → SQL → Power BI → Python
+
+
+
+![Sales Deep Dive](powerbi_page2_Sales_details.png)
+
+
+
+
+![Customer Analysis](powerbi_page3_customer_analysis.png)
+
+---
+## Core Skills Updated
+**Excel** | **SQL** | **Power BI** | Python (learning)
