@@ -100,9 +100,68 @@ larger transaction sizes across the entire customer base.
 
 ---
 
-## Currently Learning
-- Power BI — dashboards and DAX
-- Python — Pandas, data cleaning, visualization
+
+## Project 3 — Amazon Sales Power BI Report
+**Tool:** Microsoft Power BI  
+**Dataset:** Same 10,000 order dataset  
+**Techniques:** DAX measures, Calculated columns, 
+Live data refresh, Multi-page report design,
+Map visualization, Treemap, Donut chart
+
+### Report Structure
+- Page 1: Executive Summary — headline KPIs for CEO
+- Page 2: Sales Deep Dive — category, state, 
+  product analysis for Sales Director  
+- Page 3: Customer Analysis — segmentation 
+  and retention priorities for Marketing Director
+
+### Key Findings
+
+**Sales Performance**
+- Total revenue: 642M across 10,000 orders
+- Electronics leads at 219M despite fewer orders 
+  than Home (3,352 vs 3,379) — highest revenue 
+  per transaction at 65,440 average
+- January revenue (490M) vs February (152M) — 
+  69% decline indicating incomplete February data
+- North Carolina top state at 15M revenue
+
+**Customer Segmentation**
+- VIP customers (2,663) generate 75% of total 
+  revenue at 483M — average spend 181,643 per customer
+- Loyal segment (1,468 customers) generates 17% 
+  at 110M — primary upgrade target
+- Standard segment (1,885 customers) generates 
+  only 7.5% despite being second largest group
+
+**Product & Category**
+- Revenue evenly distributed — no single 
+  blockbuster product exists
+- Top product contributes only 0.12% of 
+  category total — highly fragmented catalog
+- Sub-categories: Furniture and Kitchen lead 
+  Home, Laptop and Mobile lead Electronics
+
+### Strategic Recommendation
+Retain the 2,663 VIP customers generating 75% 
+of revenue through a dedicated retention program. 
+Simultaneously run upgrade campaigns targeting 
+the 1,468 Loyal customers — converting even 20% 
+to VIP status would add approximately 22M in 
+annual revenue. Focus Electronics acquisition 
+to leverage its superior revenue per transaction.
+
+### DAX Measures Built
+- Total Revenue, Total Orders, Avg Order Value
+- High Tier %, VIP Revenue, VIP Customer Count
+- Revenue % of Total, January Sales, February Sales
+- Customer Segment (calculated column)
+- Order Tier (calculated column)
+
+### Screenshots
+[Executive Summary](PowerBI-Project/powerbi_page1_executive.png)  
+[Sales Deep Dive](PowerBI-Project/powerbi_page2_sales_details.png)  
+[Customer Analysis](PowerBI-Project/powerbi_page3_customers_analysis.png)
 
 ## Curriculum
 30-day structured Data Analytics program covering 
